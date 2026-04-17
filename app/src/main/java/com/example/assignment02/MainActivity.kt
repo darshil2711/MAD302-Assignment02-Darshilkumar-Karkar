@@ -3,8 +3,8 @@
  * Assignment: Assignment 2 - Product List with RecyclerView
  * Student Name: Darshilkumar Karkar
  * Student ID: A00203357
- * Date of Submission: 2025-01-30
- * Description: Main screen of the app. Displays a list of 6 products
+ * Date of Submission: 2026-04-22
+ * Description: Main screen of the app. Displays a list of 7 products
  *              in a RecyclerView. Clicking a product navigates to the
  *              ProductDetailActivity using Intent, passing the product data.
  */

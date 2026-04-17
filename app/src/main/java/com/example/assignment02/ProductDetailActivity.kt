@@ -1,3 +1,12 @@
+/*
+ * Course: MAD302-01 Android Development
+ * Assignment: Assignment 2 - Product List with RecyclerView
+ * Student Name: Darshilkumar Karkar
+ * Student ID: A00203357
+ * Date of Submission: 2025-01-30
+ * Description: Detail screen for displaying full information about a selected product.
+ */
+
 package com.example.assignment02
 
 import android.os.Build
@@ -7,6 +16,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+/**
+ * Activity that displays the full details of a selected [Product].
+ */
 class ProductDetailActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

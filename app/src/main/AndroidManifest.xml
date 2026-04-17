@@ -11,28 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Assignment02">
-
-        <!-- Main launcher activity — shows the product list -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Detail activity — receives Product via Intent extra -->
         <activity
             android:name=".ProductDetailActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity">
-            <!-- parentActivityName enables the Up/Back arrow in the toolbar -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
-        </activity>
-
+            android:exported="false" />
     </application>
 
 </manifest>
