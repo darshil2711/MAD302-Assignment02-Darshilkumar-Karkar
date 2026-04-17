@@ -3,9 +3,8 @@
  * Assignment: Assignment 2 - Product List with RecyclerView
  * Student Name: Darshilkumar Karkar
  * Student ID: A00203357
- * Date of Submission: 2026-04-22
+ * Date of Submission: 2025-01-30
  * Description: Data class representing a product with name, price, and description.
- *              Implements Parcelable so it can be passed between Activities via Intent.
  */
 
 package com.example.assignment02
@@ -15,14 +14,6 @@ import kotlinx.parcelize.Parcelize
 
 /**
  * Data class representing a single product.
- *
- * Implements [Parcelable] to allow passing between activities using Intent extras.
- *
- * @property id Unique identifier for the product.
- * @property name The display name of the product.
- * @property price The price of the product in dollars.
- * @property description A short description of the product.
- * @property imageRes Optional drawable resource ID for the product image.
  */
 @Parcelize
 data class Product(

@@ -3,7 +3,7 @@
 **Course:** MAD302 - Android Development  
 **Name:** Darshilkumar Karkar  
 **Student ID:** A00203357 
-**Date:**  22 April, 2026
+**Date:**  22 April 2026
 
 ## Description
 An Android application that displays a list of products using RecyclerView.
